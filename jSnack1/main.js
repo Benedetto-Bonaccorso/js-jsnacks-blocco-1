@@ -1,6 +1,5 @@
 let numero1 = Number(prompt("Inserisci un numero"));
 let numero2 = Number(prompt("Inserisci un altro numero"));
-
 let h1 = document.querySelector("#heading")
 
 /*
@@ -14,8 +13,10 @@ if(numero1 > numero2){
 */
 
 let numeri = [numero1, numero2]
+let numeroMassimo = Math.max(...numeri)
 
-console.log(Math.max(...numeri))
+console.log(numeroMassimo)
+h1.innerHTML = numeroMassimo
 
 //let numeroMaggiore = numeri.indexOf[maggiore]
 
