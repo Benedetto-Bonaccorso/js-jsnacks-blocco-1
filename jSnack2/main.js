@@ -6,11 +6,13 @@ let h1 = document.querySelector("#heading")
 let longestWord;
 
 if(word1.length > word2.length){
-    console.log(word1)
+    console.log(word1,word2)
     longestWord = word1
+    shortestWord = word2
 } else {
-    console.log(word2)
+    console.log(word2,word1)
     longestWord = word2
+    shortestWord = word1
 }
 
-h1.innerHTML = longestWord
+h1.innerHTML = longestWord + " " + shortestWord
