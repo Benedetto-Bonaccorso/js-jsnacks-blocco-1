@@ -12,7 +12,8 @@ if(names.includes(userName)){
     alert("you're denied")
 }
 */
-//Usando un ciclo
+
+//Usando un ciclo for
 
 /*
 for(let i = 0; i < names.length; i++){
@@ -31,6 +32,8 @@ for(let i = 0; i < names.length; i++){
     }
 }
 */
+
+//Usando un ciclo while
 
 /*
 let i = 0
@@ -52,6 +55,8 @@ while(i<names.length){
     i++
 }
 */
+
+// usando il ciclo do while
 
 let i = 0
 
