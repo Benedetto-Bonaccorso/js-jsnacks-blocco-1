@@ -5,15 +5,21 @@ let names = ["Marceline", "Finn", "Jake", "IceKing"]
 let userName = prompt("Insert your name to check if you're allowed inside")
 
 let allowed = false
-/*
+
+
+
 if(names.includes(userName)){
     alert("You're allowed")
 } else{
     alert("you're denied")
 }
-*/
+
+
+
 
 //Usando un ciclo for
+
+
 
 /*
 for(let i = 0; i < names.length; i++){
@@ -33,7 +39,11 @@ for(let i = 0; i < names.length; i++){
 }
 */
 
+
+
 //Usando un ciclo while
+
+
 
 /*
 let i = 0
@@ -56,8 +66,12 @@ while(i<names.length){
 }
 */
 
+
+
 // usando il ciclo do while
 
+
+/*
 let i = 0
 
 do{
@@ -76,3 +90,4 @@ do{
 
     i++
 } while(i<names.length)
+*/
