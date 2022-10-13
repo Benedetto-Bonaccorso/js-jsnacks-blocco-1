@@ -20,5 +20,9 @@ while(numbersSelected < 10){
     numbersSelected++
 }
 
+if(isNaN(userNumber)){
+    alert("One or more of the numbest selected are invalid, please reload the page and retry")
+}
+
 h1.innerHTML = userNumber
 console.log(userNumber)
