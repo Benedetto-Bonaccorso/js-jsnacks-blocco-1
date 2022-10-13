@@ -14,6 +14,7 @@ if(names.includes(userName)){
 */
 //Usando un ciclo
 
+/*
 for(let i = 0; i < names.length; i++){
 
     if(userName == names[i]){
@@ -29,4 +30,23 @@ for(let i = 0; i < names.length; i++){
         h1.innerHTML = "You're not allowed"
     }
 }
+*/
 
+let i = 0
+while(i<names.length){
+
+    if(userName == names[i]){
+        allowed = true
+    }
+
+    if(allowed == true){
+        alert("You're allowed")
+        h1.innerHTML = "You're allowed"
+        break
+    } else if (allowed == false && i == names.length-1){
+        alert("You're not allowed")
+        h1.innerHTML = "You're not allowed"
+    }
+
+    i++
+}
